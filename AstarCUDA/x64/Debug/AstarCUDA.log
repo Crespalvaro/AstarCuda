@@ -1,0 +1,19 @@
+﻿  
+  D:\ingenieria informatica 4º\PFG\AstarCUDA\AstarCUDA>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.2\bin\nvcc.exe" -ccbin "D:\VS\VC\bin\x86_amd64" -x cu  -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.2\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.2\include"  -G   --keep-dir x64\Debug -maxrregcount=0  --machine 64 --compile   -g   -DWIN32 -DWIN64 -D_DEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /FS /Zi /RTC1 /MDd " -o x64\Debug\Source.cu.obj "D:\ingenieria informatica 4º\PFG\AstarCUDA\AstarCUDA\Source.cu" -clean 
+  Source.cu
+  Compiling CUDA source file Source.cu...
+  
+  D:\ingenieria informatica 4º\PFG\AstarCUDA\AstarCUDA>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.2\bin\nvcc.exe" -gencode=arch=compute_30,code=\"sm_30,compute_30\" --use-local-env -ccbin "D:\VS\VC\bin\x86_amd64" -x cu  -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.2\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.2\include"  -G   --keep-dir x64\Debug -maxrregcount=0  --machine 64 --compile -cudart static  -g   -DWIN32 -DWIN64 -D_DEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /FS /Zi /RTC1 /MDd " -o x64\Debug\Source.cu.obj "D:\ingenieria informatica 4º\PFG\AstarCUDA\AstarCUDA\Source.cu" 
+d:\ingenieria informatica 4║\pfg\astarcuda\astarcuda\stlastar.cuh(322): warning : variable "threads" was declared but never referenced
+  Source.cu
+D:/ingenieria informatica 4º/PFG/AstarCUDA/AstarCUDA/Source.cu(104): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+d:\ingenieria informatica 4º\pfg\astarcuda\astarcuda\stlastar.cuh(335): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+  d:\ingenieria informatica 4º\pfg\astarcuda\astarcuda\stlastar.cuh(189): note: while compiling class template member function 'unsigned int AStarSearch<MapSearchNode>::SearchStep(void)'
+  D:/ingenieria informatica 4º/PFG/AstarCUDA/AstarCUDA/Source.cu(245): note: see reference to function template instantiation 'unsigned int AStarSearch<MapSearchNode>::SearchStep(void)' being compiled
+  d:\ingenieria informatica 4º\pfg\astarcuda\astarcuda\stlastar.cuh(846): note: see reference to class template instantiation 'AStarSearch<MapSearchNode>' being compiled
+d:\ingenieria informatica 4º\pfg\astarcuda\astarcuda\stlastar.cuh(337): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+d:\ingenieria informatica 4º\pfg\astarcuda\astarcuda\stlastar.cuh(355): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+d:\ingenieria informatica 4º\pfg\astarcuda\astarcuda\stlastar.cuh(357): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+     Creating library D:\ingenieria informatica 4º\PFG\AstarCUDA\x64\Debug\AstarCUDA.lib and object D:\ingenieria informatica 4º\PFG\AstarCUDA\x64\Debug\AstarCUDA.exp
+  AstarCUDA.vcxproj -> D:\ingenieria informatica 4º\PFG\AstarCUDA\x64\Debug\AstarCUDA.exe
+  AstarCUDA.vcxproj -> D:\ingenieria informatica 4º\PFG\AstarCUDA\x64\Debug\AstarCUDA.pdb (Full PDB)
